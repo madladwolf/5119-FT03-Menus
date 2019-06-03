@@ -1,0 +1,22 @@
+C:\Users\Joao Sousa\source\repos\5119-FT03\5119-FT03\bin\Debug\netcoreapp2.1\5119-FT03.deps.json
+C:\Users\Joao Sousa\source\repos\5119-FT03\5119-FT03\bin\Debug\netcoreapp2.1\5119-FT03.runtimeconfig.json
+C:\Users\Joao Sousa\source\repos\5119-FT03\5119-FT03\bin\Debug\netcoreapp2.1\5119-FT03.runtimeconfig.dev.json
+C:\Users\Joao Sousa\source\repos\5119-FT03\5119-FT03\bin\Debug\netcoreapp2.1\5119-FT03.dll
+C:\Users\Joao Sousa\source\repos\5119-FT03\5119-FT03\bin\Debug\netcoreapp2.1\5119-FT03.pdb
+C:\Users\Joao Sousa\source\repos\5119-FT03\5119-FT03\obj\Debug\netcoreapp2.1\5119-FT03.csprojAssemblyReference.cache
+C:\Users\Joao Sousa\source\repos\5119-FT03\5119-FT03\obj\Debug\netcoreapp2.1\5119-FT03.csproj.CoreCompileInputs.cache
+C:\Users\Joao Sousa\source\repos\5119-FT03\5119-FT03\obj\Debug\netcoreapp2.1\5119-FT03.AssemblyInfoInputs.cache
+C:\Users\Joao Sousa\source\repos\5119-FT03\5119-FT03\obj\Debug\netcoreapp2.1\5119-FT03.AssemblyInfo.cs
+C:\Users\Joao Sousa\source\repos\5119-FT03\5119-FT03\obj\Debug\netcoreapp2.1\5119-FT03.dll
+C:\Users\Joao Sousa\source\repos\5119-FT03\5119-FT03\obj\Debug\netcoreapp2.1\5119-FT03.pdb
+C:\Users\t0114312\source\repos\5119-FT03\5119-FT03\bin\Debug\netcoreapp2.1\5119-FT03.deps.json
+C:\Users\t0114312\source\repos\5119-FT03\5119-FT03\bin\Debug\netcoreapp2.1\5119-FT03.runtimeconfig.json
+C:\Users\t0114312\source\repos\5119-FT03\5119-FT03\bin\Debug\netcoreapp2.1\5119-FT03.runtimeconfig.dev.json
+C:\Users\t0114312\source\repos\5119-FT03\5119-FT03\bin\Debug\netcoreapp2.1\5119-FT03.dll
+C:\Users\t0114312\source\repos\5119-FT03\5119-FT03\bin\Debug\netcoreapp2.1\5119-FT03.pdb
+C:\Users\t0114312\source\repos\5119-FT03\5119-FT03\obj\Debug\netcoreapp2.1\5119-FT03.csprojAssemblyReference.cache
+C:\Users\t0114312\source\repos\5119-FT03\5119-FT03\obj\Debug\netcoreapp2.1\5119-FT03.csproj.CoreCompileInputs.cache
+C:\Users\t0114312\source\repos\5119-FT03\5119-FT03\obj\Debug\netcoreapp2.1\5119-FT03.AssemblyInfoInputs.cache
+C:\Users\t0114312\source\repos\5119-FT03\5119-FT03\obj\Debug\netcoreapp2.1\5119-FT03.AssemblyInfo.cs
+C:\Users\t0114312\source\repos\5119-FT03\5119-FT03\obj\Debug\netcoreapp2.1\5119-FT03.dll
+C:\Users\t0114312\source\repos\5119-FT03\5119-FT03\obj\Debug\netcoreapp2.1\5119-FT03.pdb
