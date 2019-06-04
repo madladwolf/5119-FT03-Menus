@@ -7,7 +7,10 @@ namespace _5119_FT03
     {
         static int id;
         static List<Contacto> cont = new List<Contacto>();
+
         enum Opcao { Inserir = 1, Listar = 2, Fechar = 3 };
+        enum chooseId { Continuar = 1, Sair = 0 };
+
         static int Menu()
         {
             int aux = 0;
@@ -17,6 +20,39 @@ namespace _5119_FT03
                 Console.WriteLine(++aux + " - " + val);
             }
             return LerValor();
+        }
+
+        static int MenuId()
+        {
+            int aux = -1;
+            Console.WriteLine("Prentede saber a idade?\n");
+            foreach (chooseId val in Enum.GetValues(typeof(chooseId)))
+            {
+                Console.WriteLine(++aux + " - " + val);
+            }
+            return LerValor();
+        }
+
+        static void saberIdade()
+        {  
+            try
+            {
+                Console.WriteLine("ID pretendido:\n");
+                id = int.Parse(Console.ReadLine());
+                Contacto c = cont.Find(x => x.getId() == id);
+                Console.WriteLine(c.calcIdade());
+            }
+            catch (NullReferenceException)
+            {
+                Console.Clear();
+                Console.WriteLine("!!!Insira um numero.!!!");
+            }
+            catch (FormatException)
+            {
+                Console.Clear();
+                Console.WriteLine("!!!Insira um numero.!!!");
+            }
+ 
         }
 
         static int LerValor()
@@ -40,14 +76,26 @@ namespace _5119_FT03
         }
 
 
+
+
         static void listar()
         {
+            Console.Clear();
+
             foreach (Contacto contac in cont)
             {
                 Console.WriteLine(contac.ToString());
             }
+            Console.WriteLine();
+            int op1;
+            do {
+                op1 = MenuId();
+                if (op1 == (int)chooseId.Continuar)
+                {
+                    saberIdade();
+                }
+            } while (op1 != (int)chooseId.Sair);
         }
-
 
 
         static void inserir()
@@ -72,20 +120,12 @@ namespace _5119_FT03
         }
 
 
-
-        static void list()
-        {
-            foreach (Contacto a in cont) 
-            {
-                Console.WriteLine( a.ToString());
-            }
-            Console.ReadKey();
-        }
         static void Main(string[] args)
         {
             int op;
             do {
                 op = Menu();
+ 
                 switch (op)
                 {
                     case 1:
@@ -93,12 +133,8 @@ namespace _5119_FT03
                         break;
                     case 2:
                         listar();
-
+                        
                         break;
-                    default:
-                        Console.WriteLine("Errou");
-                        break;
-
                 }
 
             } while (op != (int)Opcao.Fechar);

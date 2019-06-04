@@ -18,7 +18,7 @@ namespace _5119_FT03
 
         public Contacto(int id,string nome, string telef, string email, Data datan)
         {
-            if (!setID(id)) this.id = 10;
+            if (!setID(id)) this.id = id;
             if (!setNome(nome)) this.nome = "Pessoa";
             if (!setTelef(telef)) this.telef = "+35199999999";
             if (!setEmail(email)) this.email = "sem@emai.com";
@@ -65,6 +65,10 @@ namespace _5119_FT03
             return id;
         }
 
+        public int calcIdade()
+        {
+            return 2019 - DataNasc.getAno();
+        }
 
         public bool setNome(string nome)
         {
